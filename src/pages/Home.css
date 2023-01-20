@@ -1,0 +1,40 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  color: greenyellow;
+}
+.container .form {
+  display: flex;
+  align-items: flex-end;
+  width: 80%;
+  height: 10%;
+  padding: 1rem;
+  position: relative;
+}
+.container .form button{
+  height: 50%;
+  border-radius: .5rem;
+  border: none;
+  cursor: pointer;
+  margin-left: 2rem; 
+  background-color: rgb(149, 223, 38);
+  box-shadow: 1px 1px 10px #000a;
+  transition: all .1s linear;
+}
+.container .form button:hover{
+  transform: scale(1.05);
+  background-color: greenyellow;
+}
+
+.container .container-reminder{
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}

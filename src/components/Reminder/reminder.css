@@ -1,0 +1,35 @@
+.card-task{
+    width: 7rem;
+    margin: .8rem;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px greenyellow;
+    background-color: #000a;
+    cursor: pointer;
+    transition: transform .1s linear;
+}
+
+.card-task:hover{
+    transform: scale(1.05);
+}
+
+.card-task h2{
+    width: 100%;
+    background-color: greenyellow;
+    color: black;
+    margin: 0;
+    text-align: center;
+}
+.card-task h3{
+    width: 100%;
+    margin: .5rem 0;
+    text-align: center;
+    font-size: .8rem;
+}
+.card-task .box-time{
+    display: flex;
+    justify-content: center;
+}
+.card-task .box-time p{
+    padding: .2rem;
+}

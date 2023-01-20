@@ -1,0 +1,53 @@
+svg {
+    max-height: 50%;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-left: 1rem;
+    background: rgb(149, 223, 38);
+    color: black;
+    padding: .5rem;
+    font-size: 1rem;
+    box-shadow: 1px 1px 10px #000a;
+}
+
+svg:hover {
+    transform: scale(1.05);
+    background-color: greenyellow;
+}
+
+.box-filter{
+    position: absolute;
+    right: 0;
+    top: 100%;
+    padding: .2rem;
+    box-shadow: 1px 1px 10px greenyellow;
+    display: flex;
+    flex-direction: column;
+}
+.box-filter .box-search{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    margin: .3rem 0;
+    background-color: whitesmoke;
+    display: flex;
+}
+.box-filter .box-search input{
+    outline: none;
+    border: none;
+    padding: .3rem;
+    background-color: transparent;
+}
+
+.box-filter .box-search svg{
+    height: 100%;
+    border-radius: 0;
+    cursor: pointer;
+    margin-left: 0;
+    margin: auto;
+    margin-right: .3rem;
+    background: none;
+    padding: 0;
+    font-size: 1rem;
+    box-shadow: none;
+}

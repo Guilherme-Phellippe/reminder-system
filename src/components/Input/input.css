@@ -1,0 +1,46 @@
+.container .form .input {
+    width: 25%;
+    height: 100%;
+    margin: 0 .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .form .input label {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    transform: translateY(0%);
+    margin: 0 .2rem;
+    font-size: .8rem;
+    text-shadow: 1px 1px 5px rgba(172, 255, 47, 0.2);
+}
+
+.container .form .input.active label {
+    transition: transform .3s linear;
+    transform: translateY(102%);
+    color: #24242460;
+}
+
+.container .form .input.hidden label{
+    opacity: 0;
+}
+
+
+.container .form .input input {
+    height: 50%;
+    cursor: pointer;
+    padding: 0 .5rem;
+    outline: none;
+    border-radius: .5rem;
+    border: none;
+    box-shadow: 1px 1px 10px #000a;
+}
+.container .form .input input[type=date]::-webkit-input-placeholder{
+    display: none;
+}
+
+.container .form .input.active:hover>label {
+    transform: translateY(-0%);
+    color: whitesmoke;
+}
